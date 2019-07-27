@@ -141,7 +141,7 @@
     font-size: 0.7em;
   }
 }
-/* /Section image - Responsive */
+/* /Section slider image - Responsive */
 /* /Section slider image */
 
 /* Main content */
@@ -152,36 +152,8 @@
   width: auto;
 }
 /* /Main content*/
-
-/* Stages of the application */
-.stages {
-  background-color: #00000008;
-  color: #000000;
-  overflow: hidden;
- }
- .card {
-  border-color: transparent;
- }
- .stage__module {
-   box-shadow: 0px 5px 24px -9px #757375;
-   transition: transform .5s ease-out;
-   -webkit-box-shadow: 0px 5px 24px -9px #757375;
-   -moz-box-shadow: 0px 5px 24px -9px #757375;
-   -webkit-transition: transform .5s ease-out;
-   -moz-transition: transform .5s ease-out;
-   -ms-transition: transform .5s ease-out;
-   -o-transition: transform .5s ease-out;
-}
- .stage__module:hover {
-   transform: scale(1.1);
-   -webkit-transform: scale(1.1);
-   -moz-transform: scale(1.1);
-   -ms-transform: scale(1.1);
-   -o-transform: scale(1.1);
-  }
-/* /Stages of the application */
-  
-/* Section what to expect from the bootcamp? and rules */
+ 
+/* Section ¿Qué esperar del bootcamp? y rules */
 .section-benefits {
   background-color: #00000008;
   color: #000000;
@@ -189,7 +161,7 @@
 .section-benefits ul {
   list-style-type: none;
 }
-/* Section what to expect from the bootcamp? */
+/* /Section ¿Qué esperar del bootcamp? y rules */
 
 /* Section testimonies */
 .testimonies {
@@ -236,7 +208,7 @@
 /* /Icon In */
 /* Logo School */
 .testimonies__logo__school {
-  height: 1.5rem;
+  height: 1.65rem;
   width: auto;
 }
 /* /Logo School */
@@ -282,12 +254,40 @@
 }
 /* /Section testimonies */
 
-/* Bootcamp pillars */
-.pillars {
+/* Stages of the application */
+.stages {
+  background-color: #00000008;
+  color: #000000;
+  overflow: hidden;
+ }
+ .card {
+  border-color: transparent;
+ }
+ .stage__module {
+   box-shadow: 0px 5px 24px -9px #757375;
+   transition: transform .5s ease-out;
+   -webkit-box-shadow: 0px 5px 24px -9px #757375;
+   -moz-box-shadow: 0px 5px 24px -9px #757375;
+   -webkit-transition: transform .5s ease-out;
+   -moz-transition: transform .5s ease-out;
+   -ms-transition: transform .5s ease-out;
+   -o-transition: transform .5s ease-out;
+}
+ .stage__module:hover {
+   transform: scale(1.1);
+   -webkit-transform: scale(1.1);
+   -moz-transform: scale(1.1);
+   -ms-transform: scale(1.1);
+   -o-transform: scale(1.1);
+  }
+/* /Stages of the application */
+ 
+/* Our allies */
+.allies {
   background: #2a90b3;
   background: linear-gradient(0deg, #2a90b3 0%, #00000008 100%);
 }
-.pillar .icon {
+.allied .icon {
   background: #00000033;
   display: inline-block;
   height: 13rem;
@@ -304,7 +304,7 @@
   -ms-transform: scale(1);
   -o-transform: scale(1);
 }
-.pillar .icon:hover {
+.allied .icon:hover {
   background: #2a2a2aab;
  }
 .allies__img {
@@ -313,6 +313,8 @@
 .allies__asesorandes {
   height: 3rem;
 }
+/* /Our allies */
+
 /* Questions and answers */
 .questions {
   background-color: #00000008;
