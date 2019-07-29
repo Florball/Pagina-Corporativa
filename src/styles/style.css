@@ -12,7 +12,7 @@
   -o-transition: all 1.5s ease;
 }
 .nav__logo {
-  height: 3.7rem;
+  height: 3.5rem;
   width: auto;
 }
 .nav_navbar .nav__logo {
@@ -24,9 +24,8 @@
   -o-transition: all 1s ease;
 }
 .nav__button {
-  background-color: #f27c21;
+  background-color: #ff883c;
   box-shadow: 1px 3px 9px -2px #000000b3;
-  color: #ffffff;
   font-weight: 500;
   letter-spacing: 0.05rem;
   transition: all 0.5s ease;
@@ -36,8 +35,7 @@
   -o-transition: all 0.5s ease;
 }
 .nav__button:hover {
-  background-color: #e66300;
-  color: #ffffff;
+  background-color: #ff5500;
 }
 @media (max-width: 480px) {
   .nav__logo {
@@ -67,15 +65,15 @@
   background-color: #000000c7;
   display: block;
   text-align: center;
-  width: 6rem;
+  width: 4.7rem;
 }
 .section-background__time {
   color: #fff;
-  font-size: 1.8em;
+  font-size: 1.5rem;
   text-align: center;
 }
 .section-background__label {
-  font-size: 1.1em;
+  font-size: 0.9rem;
   display: block;
   color: #aaa;
 }
@@ -165,45 +163,40 @@
 
 /* Section testimonies */
 .testimonies {
-  background: #2a90b3;
-  background: linear-gradient(0deg, #2a90b3 0%, #00000008 100%);
+  background: #c747ba;
+  background: linear-gradient(0deg, #c747ba 0%, #00000008 100%);
 }
 .testimonies__item {
   padding-top: 5%;
 }
 .testimonies__img {
-  border: 1rem solid #ffffff;
+  border: .6rem solid #ffffff;
   border-bottom: 2rem solid #ffffff;
-  margin: 2% 3% 5% 10%;
+  margin: 5% 3% 5% 5%;
   transform: rotate(-7deg);
   -webkit-transform: rotate(-7deg);
   -moz-transform: rotate(-7deg);
   -ms-transform: rotate(-7deg);
   -o-transform: rotate(-7deg);
 }
-.cont__testimonies{
-  background: #2a90b3;
-  background: linear-gradient(0deg, #2a90b3 0%, #00000008 100%);
-}
 .carousel-caption cite,
 .carousel-caption h6 {
   color: #000000;
 }
+.testimonies__link {
+  color: #ffffff;
+}
+.testimonies__link:hover {
+  color: #242323;
+  text-decoration: none;
+}
 /* Icon In */
 .testimonies__icon_in {
   background: #0077B5;
+  color: #ffffff;
 }
-.testimonies__icon {
-  text-decoration: none;
-  transition: .4s;
-  -webkit-transition: .4s;
-  -moz-transition: .4s;
-  -ms-transition: .4s;
-  -o-transition: .4s;
-}
-.testimonies__icon:hover {
-  background: #283e4a;
-  text-decoration: none;
+.testimonies__icon_in:hover {
+  background: #124f70;
 }
 /* /Icon In */
 /* Logo School */
@@ -229,7 +222,7 @@
 @media (max-width: 768px) {
   .testimonies__img {
     border: .5rem solid #ffffff;
-    margin: 2% 10% 4% 10%;
+    margin: 4% 25% 3% 25%;
     transform: rotate(-5deg);
     -webkit-transform: rotate(-5deg);
     -moz-transform: rotate(-5deg);
@@ -248,6 +241,9 @@
   }
 }
 @media (max-width: 425px) {
+  .testimonies__img {
+    margin: 4% 15% 3% 15%;
+  }
   .testimonies__logo__school {
     height: 1.1rem;
   }
@@ -284,8 +280,8 @@
  
 /* Our allies */
 .allies {
-  background: #2a90b3;
-  background: linear-gradient(0deg, #2a90b3 0%, #00000008 100%);
+  background: #c747ba;
+  background: linear-gradient(0deg, #c747ba 0%, #00000008 100%);
 }
 .allied .icon {
   background: #00000033;
@@ -313,6 +309,33 @@
 .allies__asesorandes {
   height: 3rem;
 }
+/* Responsive our allies */
+@media (max-width: 500px) {
+  .allied .icon {
+    height: 9.5rem;
+    line-height: 9.5rem;
+    width: 9.5rem;
+  }
+  .allies__img {
+    height: 3rem;
+  }
+  .allies__asesorandes {
+    height: 2.1rem;
+  }
+}
+@media (max-width: 375px) {
+  .allied .icon {
+    height: 7.5rem;
+    line-height: 7.5rem;
+    width: 7.5rem;
+  }
+  .allies__img {
+    height: 2.5rem;
+  }
+  .allies__asesorandes {
+    height: 1.7rem;
+  }
+}
 /* /Our allies */
 
 /* Questions and answers */
@@ -336,15 +359,22 @@
 }
 /* /Questions and answers */
 
+/* Form */
+.form__data__entry {
+  border: .1rem solid #ffffff !important;
+  border-bottom: 0.1rem solid #783393 !important;
+}
+/* /Form */
+
 /* Footer */
 .footer {
-  background: #783393;
+  background: #58256d;
   color: #ffffff;
  }
  .footer__text {
    color: #c6b8cc;
  }
- .footer__icons {
+ .footer__icons { 
   list-style-type: none;
  }
  .footer__icon {
@@ -366,12 +396,16 @@
 }
  .footer__icon:hover {
   background: #2a2a2ad8;
+  color: #ffffff;
  }
  .footer__copy {
   font-size: 1em;
   font-weight: 300;
  }
- .footer__link,
+ .footer__link {
+  color: #d5c5db;
+  text-decoration: none;
+ }
  .footer__link:hover {
   color: #ffffff;
   text-decoration: none;
@@ -415,36 +449,30 @@
 }
 @media (max-width: 1024px) {
   .title {
-    font-size: 3rem;
+    font-size: 2.8rem;
   }
   .subtitle {
-    font-size: 1.9rem !important;
+    font-size: 1.5rem !important;
   } 
   .medium-txt {
-    font-size: 1.2rem !important;
-  }
-  .small-txt {  
     font-size: 1.1rem !important;
   }
+  .small-txt {  
+    font-size: 1.04rem !important;
+  }
   .x-small-txt {
-    font-size: 1rem;
+    font-size: 0.9rem;
   }
 }
 @media (max-width: 768px) {
   .title {
-    font-size: 2.4rem;
+    font-size: 2rem;
   }
   .subtitle {
-    font-size: 1.7rem !important;
+    font-size: 1.3rem !important;
   } 
   .medium-txt {
-    font-size: 1.3rem !important;
-  }
-  .small-txt {  
-    font-size: 1.2rem !important;
-  }
-  .x-small-txt {
-    font-size: 1.1rem;
+    font-size: 1.1rem !important;
   }
 }
 @media (max-width: 425px) {
@@ -458,7 +486,7 @@
     font-size: 1rem !important;
   }
   .small-txt {  
-    font-size: 1rem !important;
+    font-size: 0.92rem !important;
   }
   .x-small-txt {
     font-size: 0.8rem;

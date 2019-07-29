@@ -5,7 +5,7 @@ $(function(){
     // Fecha exacta en la que termina el countdown
     year: 2019,
     month: 9,
-    day: 14,
+    day: 21,
     hour: 0,
     minute: 0, 
     second: 0,

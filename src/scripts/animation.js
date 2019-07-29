@@ -13,12 +13,6 @@ sr.reveal('.txt', {
   duration: 2000,
   origin: 'top',
 });
-// Animación a bootcamp pillars
-sr.reveal('.pillar', {
-  distance: '200px',
-  duration: 2000,
-  origin: 'bottom',
-});
 
 // Smooth Scrolling
 document.querySelectorAll('a[href^="#"]').forEach(anchor => {
