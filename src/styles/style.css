@@ -154,7 +154,6 @@
 /* Main content */
 .cont-main {
   color: #000000;
-  background-color: #00000008;
   height: auto;
   width: auto;
 }
@@ -162,7 +161,8 @@
  
 /* Section ¿Qué esperar del bootcamp? y rules */
 .section-benefits {
-  background-color: #00000008;
+  background: #00000008;
+  background: linear-gradient(0deg, #00000008 0%, #ffffff 100%);
   color: #000000;
 }
 .section-benefits ul {
@@ -261,7 +261,7 @@
 
 /* Stages of the application */
 .stages {
-  background-color: #00000008;
+  background-color: rgba(0, 0, 0, 0.031);
   color: #000000;
   overflow: hidden;
  }
