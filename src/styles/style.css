@@ -294,30 +294,12 @@
   height: 2.3rem;
 }
 /* Responsive our allies */
-@media (max-width: 500px) {
-  .allied .icon {
-    height: 9.5rem;
-    line-height: 9.5rem;
-    width: 9.5rem;
-  }
-  .allies__img {
-    height: 3rem;
-  }
-  .allies__asesorandes {
-    height: 1.1rem;
-  }
-}
 @media (max-width: 375px) {
-  .allied .icon {
-    height: 7.5rem;
-    line-height: 7.5rem;
-    width: 7.5rem;
-  }
   .allies__img {
-    height: 2.5rem;
+    height: 3.8rem;
   }
   .allies__asesorandes {
-    height: 1.3rem;
+    height: 2rem;
   }
 }
 /* /Our allies */
@@ -344,9 +326,13 @@
 /* /Questions and answers */
 
 /* Form */
+
 .form__data__entry {
   border: .1rem solid #ffffff !important;
   border-bottom: 0.1rem solid #61005c !important;
+}
+.clear {
+  box-align: center;
 }
 /* /Form */
 
