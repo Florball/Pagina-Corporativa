@@ -5,11 +5,11 @@
 }
 .nav_navbar {
   height: 4rem;
-  transition: all 1.5s ease;
-  -webkit-transition: all 1.5s ease;
-  -moz-transition: all 1.5s ease;
-  -ms-transition: all 1.5s ease;
-  -o-transition: all 1.5s ease;
+  transition: all 1s ease;
+  -webkit-transition: all 1s ease;
+  -moz-transition: all 1s ease;
+  -ms-transition: all 1s ease;
+  -o-transition: all 1s ease;
 }
 .nav__logo {
   height: 3.5rem;
@@ -331,10 +331,11 @@
 /* /Questions and answers */
 
 /* Form */
-
 .form__data__entry {
   border: .1rem solid #ffffff !important;
   border-bottom: 0.1rem solid #61005c !important;
+}
+.no-line {
   outline:none;
 }
 .clear {
@@ -389,39 +390,45 @@
  }
 /* /Footer */
  
+/* Responsive para pantallas grandes */
+@media (min-width: 1050px) {
+  .general-padding {
+    padding: 0% 10% !important;
+  }
+}
+/* /Responsive para pantallas grandes */
+  
 /* Tamaños de fuentes */
 .title {
-  font-size: 3.5rem;
+  font-size: 3rem;
   font-weight: 400;
 }
 .subtitle {
-  font-size: 2.4rem !important;
+  font-size: 1.7rem !important;
 }
 .medium-txt {
-  font-size: 2.1rem !important;
+  font-size: 1.3rem !important;
 }
 .small-txt {  
-  font-size: 2rem !important;
+  font-size: 1.2rem !important;
 }
 .x-small-txt {
-  font-size: 1.8rem;
+  font-size: 1.1rem;
 }
+
 /* Responsive de texto */
 @media (max-width: 1440px) {
-  .title {
-    font-size: 3.2rem;
-  }
   .subtitle {
-    font-size: 2rem !important;
+    font-size: 1.6rem !important;
   } 
   .medium-txt {
-    font-size: 1.5rem !important;
+    font-size: 1.1rem !important;
   }
   .small-txt {  
-    font-size: 1.3rem !important;
+    font-size: 1.05rem !important;
   }
   .x-small-txt {
-    font-size: 1.1rem;
+    font-size: 1rem;
   }
 }
 @media (max-width: 1024px) {
