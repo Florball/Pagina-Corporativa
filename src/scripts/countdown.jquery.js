@@ -37,7 +37,7 @@
 				var container, wrapper, time, label;
 
 				// Create elements container
-				container = $('<div/>').addClass('pt-1 pb-0 section-background__countdown').attr('id', k);
+				container = $('<div/>').addClass('pb-0 section-background__countdown').attr('id', k);
 
 				// Create wrapper element
 				wrapper = $('<div/>').addClass('pb-1 section-background__wrapper rounded');
