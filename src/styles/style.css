@@ -26,7 +26,7 @@
 .nav__button {
   background-color: #ff883c;
   box-shadow: 1px 3px 9px -2px #000000b3;
-  font-weight: 500;
+  font-weight: 600;
   letter-spacing: 0.05rem;
   transition: all 0.5s ease;
   -webkit-transition: all 0.5s ease;
@@ -100,7 +100,13 @@
   box-shadow: 1px 3px 9px -2px #000000b3;
   color: #ffffff;
   margin-top: .08rem !important;
+  transition: .7s;
+  transform: scale(1);
   width: 19rem;
+  -webkit-transition: .7s;
+  -moz-transition: .7s;
+  -ms-transition: .7s;
+  -o-transition: .7s;
 }
 .section-background__btn:hover {
   background: #93008a;
@@ -173,6 +179,52 @@
 }
 /* /Section slider image - Responsive */
 /* /Section slider image */
+
+/* Bubble Whatsapp */
+.bubble-w {
+  z-index: 2;
+}
+.whatsapp {
+  background:  rgb(51, 209, 70);                
+  box-shadow: 1px 3px 9px -2px #000000b3;
+  color: #ffffff;
+  display: inline-block;
+   height: 3.7rem;
+  line-height: 3.58rem;
+  transition: .4s;
+  transform: scale(1);
+  width: 3.7rem;
+  -webkit-transition: .4s;
+  -moz-transition: .4s;
+  -ms-transition: .4s;
+  -o-transition: .4s;
+  -webkit-transform: scale(1);
+  -moz-transform: scale(1);
+  -ms-transform: scale(1);
+  -o-transform: scale(1);
+}
+.whatsapp:hover {                
+  background: #00bb2d;
+  color: #ffffff;
+}
+@media (max-width:768px) {
+  .whatsapp-movil {
+    display: inline;
+  }
+  .whatsapp-web {
+    display: none;
+  }
+}
+ @media (min-width:768px) {
+  .whatsapp-movil {
+    color: #ffffff;
+    /* display: none; */
+}
+.whatsapp-web {
+  display: inline;
+  }
+}
+/* /ubble Whatsapp */
 
 /* Main content */
 .cont-main {
@@ -490,16 +542,16 @@
 }
 @media (max-width: 425px) {
   .title {
-    font-size: 1.5rem;
+    font-size: 1.55rem;
   }
   .subtitle {
-    font-size: 1.2rem !important;
+    font-size: 1.25rem !important;
   }
   .medium-txt {
-    font-size: 1rem !important;
+    font-size: 1.03rem !important;
   }
   .small-txt {  
-    font-size: 0.94rem !important;
+    font-size: 0.95rem !important;
   }
   .x-small-txt {
     font-size: 0.8rem;
