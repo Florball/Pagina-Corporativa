@@ -210,10 +210,9 @@
 }
  @media (max-width:425px) {
   .whatsapp {
-    font-size: 1.7rem;
-    height: 3rem;
-    line-height: 3rem;
-    width: 3rem;
+    height: 3.2rem;
+    line-height: 3.2rem;
+    width: 3.2rem;
   }
 }
 /* /Bubble Whatsapp */
