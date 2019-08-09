@@ -1,3 +1,30 @@
+/* Bubble Whatsapp */
+.whatsapp {
+  background:  rgb(51, 209, 70);                
+  box-shadow: 1px 3px 9px -2px #000000b3;
+  color: #ffffff;
+  display: inline-block;
+  height: 3.7rem;
+  font-size: 2rem;
+  line-height: 3.58rem;
+  transition: .4s;
+  transform: scale(1);
+  width: 3.7rem;
+  -webkit-transition: .4s;
+  -moz-transition: .4s;
+  -ms-transition: .4s;
+  -o-transition: .4s;
+  -webkit-transform: scale(1);
+  -moz-transform: scale(1);
+  -ms-transform: scale(1);
+  -o-transform: scale(1);
+}
+.whatsapp:hover {                
+  background: #00bb2d;
+  color: #ffffff;
+}
+/* /Bubble Whatsapp */
+
 /* Cabecera / navbar */
 .nav {
   background-color: #93008a;
@@ -179,43 +206,6 @@
 }
 /* /Section slider image - Responsive */
 /* /Section slider image */
-
-/* Bubble Whatsapp */
-.bubble-w {
-  z-index: 2;
-}
-.whatsapp {
-  background:  rgb(51, 209, 70);                
-  box-shadow: 1px 3px 9px -2px #000000b3;
-  color: #ffffff;
-  display: inline-block;
-  height: 3.7rem;
-  font-size: 2rem;
-  line-height: 3.58rem;
-  transition: .4s;
-  transform: scale(1);
-  width: 3.7rem;
-  -webkit-transition: .4s;
-  -moz-transition: .4s;
-  -ms-transition: .4s;
-  -o-transition: .4s;
-  -webkit-transform: scale(1);
-  -moz-transform: scale(1);
-  -ms-transform: scale(1);
-  -o-transform: scale(1);
-}
-.whatsapp:hover {                
-  background: #00bb2d;
-  color: #ffffff;
-}
- @media (max-width:425px) {
-  .whatsapp {
-    height: 3.2rem;
-    line-height: 3.2rem;
-    width: 3.2rem;
-  }
-}
-/* /Bubble Whatsapp */
 
 /* Main content */
 .cont-main {
