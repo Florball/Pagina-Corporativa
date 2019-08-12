@@ -1,12 +1,19 @@
+/* Estilos a fuentes */
+body {  
+  font-family: 'Montserrat', sans-serif;
+}
+h2, h3, h4, h5, h6 {
+  font-family: 'Lexend Deca', sans-serif;
+}
 /* Bubble Whatsapp */
 .whatsapp {
-  background:  rgb(51, 209, 70);                
+  background:  rgb(66, 216, 83);                
   box-shadow: 1px 3px 9px -2px #000000b3;
   color: #ffffff;
   display: inline-block;
   height: 3.7rem;
-  font-size: 2rem;
-  line-height: 3.58rem;
+  font-size: 2.5rem;
+  line-height: 3.7rem;
   transition: .4s;
   transform: scale(1);
   width: 3.7rem;
@@ -22,6 +29,11 @@
 .whatsapp:hover {                
   background: #00bb2d;
   color: #ffffff;
+}
+@media (max-width: 425px) {
+  .whatsapp {
+    line-height: 3.7rem;
+  }
 }
 /* /Bubble Whatsapp */
 
@@ -54,6 +66,7 @@
   background-color: #ff883c;
   box-shadow: 1px 3px 9px -2px #000000b3;
   font-weight: 600;
+  font-family: 'Lexend Deca', sans-serif;
   letter-spacing: 0.05rem;
   transition: all 0.5s ease;
   -webkit-transition: all 0.5s ease;
@@ -63,6 +76,7 @@
 }
 .nav__button:hover {
   background-color: #ff5500;
+  color: #ffffff;
 }
 @media (max-width: 425px) {
   .nav__logo {
@@ -215,34 +229,41 @@
 }
 /* /Main content*/
  
-/* Section ¿Qué esperar del bootcamp? y rules */
+/* Section ¿Qué esperar del bootcamp? */
 .section-benefits {
   background: #00000008;
   background: linear-gradient(0deg, #00000008 0%, #ffffff 100%);
   color: #000000;
 }
-.section-benefits ul {
-  list-style-type: none;
-}
-/* /Section ¿Qué esperar del bootcamp? y rules */
+
+/* /Section ¿Qué esperar del bootcamp? */
 
 /* Section testimonies */
 .testimonies {
   background: #c747ba;
   background: linear-gradient(0deg, #c747ba 0%, #00000008 100%);
+  color: #000000;
 }
 .testimonies__item {
   padding-top: 5%;
 }
 .testimonies__img {
-  border: .6rem solid #ffffff;
-  border-bottom: 2rem solid #ffffff;
+  box-shadow: 0 0 0 0.4rem #ffffff,
+              0 0 0 0.5rem #c0bdbd,
+              0 0.3rem .6rem 0.5rem #161515;
+  height: 16rem;
   margin: 5% 3% 5% 5%;
   transform: rotate(-7deg);
+  width: 14rem;
   -webkit-transform: rotate(-7deg);
   -moz-transform: rotate(-7deg);
   -ms-transform: rotate(-7deg);
   -o-transform: rotate(-7deg);
+}
+.testimonies__bootcamper {
+  height: 100%;
+  object-fit: cover;
+  width: 100%;
 }
 .carousel-caption cite,
 .carousel-caption h6 {
@@ -252,22 +273,31 @@
   color: #ffffff;
 }
 .testimonies__link:hover {
-  color: #242323;
+  color: #ffffff;
   text-decoration: none;
 }
-/* Icon In */
+/* Linkedin y nombre de usuario */
+.testimonies__in {
+  border-radius: 1rem;
+  -webkit-border-radius: 1rem;
+  -moz-border-radius: 1rem;
+  -ms-border-radius: 1rem;
+  -o-border-radius: 1rem;
+}
+.testimonies__in:hover {
+  background: #c747ba;
+}
 .testimonies__icon_in {
-  background: #0077B5;
-  color: #ffffff;
+  background: #0077B5; 
 }
-.testimonies__icon_in:hover {
-  background: #124f70;
-}
-/* /Icon In */
+/* /Linkedin y nombre de usuario */
 /* Logo School */
 .testimonies__logo__school {
   height: 1.4rem;
   width: auto;
+}
+.testimonies__school {
+  color: #eeeeee; 
 }
 /* /Logo School */
 .testimonies__button {
@@ -292,13 +322,9 @@
 }
 @media (max-width: 768px) {
   .testimonies__img {
-    border: .5rem solid #ffffff;
+    height: 13rem;
     margin: 4% 25% 3% 25%;
-    transform: rotate(-5deg);
-    -webkit-transform: rotate(-5deg);
-    -moz-transform: rotate(-5deg);
-    -ms-transform: rotate(-5deg);
-    -o-transform: rotate(-5deg);
+    width: 10rem;
   }
   .testimonies__button {
     height: 2rem;
@@ -349,15 +375,34 @@
   }
 /* /Stages of the application */
  
+
+/* Section guidelines */
+.section-guidelines {
+  background: #00000008;
+  background: linear-gradient(0deg, #00000008 0%, #ffffff 100%);
+  color: #000000;
+}
+.section-guidelines ul {
+  list-style-type: square;
+}
+/* /Section guidelines */
+
 /* Our allies */
 .allies {
   background: #00000008;
+  color: #000000;
 }
 .allies__img {
   height: 4rem;
 }
 .allies__asesorandes {
   height: 2.3rem;
+}
+.allies__ciudaddelsaber {
+  height: 2.8rem;
+}
+.allies__startupschool {
+  height: 3.3rem;
 }
 /* Responsive our allies */
 @media (max-width: 375px) {
@@ -367,12 +412,19 @@
   .allies__asesorandes {
     height: 2rem;
   }
+  .allies__ciudaddelsaber {
+    height: 2.5rem;
+  }
+  .allies__startupschool {
+    height: 3rem;
+  }
 }
 /* /Our allies */
 
 /* Questions and answers */
 .questions {
   background-color: #00000008;
+  color: #000000;
 }
 .questions__button,
 .questions__button:hover {
@@ -393,6 +445,9 @@
 /* /Questions and answers */
 
 /* Form */
+.registration-form {
+  color: #000000;
+}
 .form__data__entry {
   border: .1rem solid #ffffff !important;
   border-bottom: 0.1rem solid #61005c !important;
