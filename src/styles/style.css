@@ -99,7 +99,7 @@ h2, h3, h4, h5, h6 {
 
 /* Section slider image */
 .section-background {
-  background-image: url(../images/slider/bootcamper-aprendehoy.png);
+  background-image: url(../images/slider/bootcamper-aprendehoy.jpg);
   background-size: cover;
   background-position: 75% top;
   color: #ffffff;
@@ -111,7 +111,7 @@ h2, h3, h4, h5, h6 {
 }
 /* countdown */
 .days-left {
-  background-color: #000000c7;
+  background-color: #ff55009a;
   display: block;
   margin: auto;
   width: 19rem;
@@ -137,7 +137,7 @@ h2, h3, h4, h5, h6 {
 }
 /* /countdown */
 .section-background__btn {
-  background: #c747ba;
+  background: #000000c7;
   box-shadow: 1px 3px 9px -2px #000000b3;
   color: #ffffff;
   margin-top: .08rem !important;
@@ -150,7 +150,7 @@ h2, h3, h4, h5, h6 {
   -o-transition: .7s;
 }
 .section-background__btn:hover {
-  background: #93008a;
+  background: #ff55009a;
   color: #ffffff;
 }
 .section__overlay {
@@ -375,7 +375,6 @@ h2, h3, h4, h5, h6 {
   }
 /* /Stages of the application */
  
-
 /* Section guidelines */
 .section-guidelines {
   background: #00000008;
@@ -399,24 +398,30 @@ h2, h3, h4, h5, h6 {
   height: 2.3rem;
 }
 .allies__ciudaddelsaber {
-  height: 2.8rem;
+  height: 2.6rem;
 }
 .allies__startupschool {
   height: 3.3rem;
 }
+.allies__equipu {
+  height: 4.7rem;
+}
 /* Responsive our allies */
 @media (max-width: 375px) {
   .allies__img {
-    height: 3.8rem;
+    height: 2.4rem;
   }
   .allies__asesorandes {
-    height: 2rem;
+    height: 1.3rem;
   }
   .allies__ciudaddelsaber {
-    height: 2.5rem;
+    height: 1.4rem;
   }
   .allies__startupschool {
-    height: 3rem;
+    height: 2rem;
+  }
+  .allies__equipu {
+    height: 2.5rem;
   }
 }
 /* /Our allies */
@@ -446,6 +451,8 @@ h2, h3, h4, h5, h6 {
 
 /* Form */
 .registration-form {
+  background-color: #ffffff;
+  background: linear-gradient(0deg, #ffffff 0%,#00000008 100%);
   color: #000000;
 }
 .form__data__entry {
