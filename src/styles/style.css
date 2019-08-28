@@ -65,6 +65,7 @@ h2, h3, h4, h5, h6 {
 .nav__button {
   background-color: #ff883c;
   box-shadow: 1px 3px 9px -2px #000000b3;
+  color: #ffffff;
   font-weight: 600;
   font-family: 'Lexend Deca', sans-serif;
   letter-spacing: 0.05rem;
@@ -89,10 +90,6 @@ h2, h3, h4, h5, h6 {
     -moz-transition: all 0.7s ease;
     -ms-transition: all 0.7s ease;
     -o-transition: all 0.7s ease;
-}
-  .nav__button,
-  .nav__button:hover {
-    color: #ffffff;
   }
 }
 /* /Cabecera / navbar */
@@ -111,7 +108,7 @@ h2, h3, h4, h5, h6 {
 }
 /* countdown */
 .days-left {
-  background-color: #ff55009a;
+  background-color: #ff873c;
   display: block;
   margin: auto;
   width: 19rem;
@@ -150,7 +147,7 @@ h2, h3, h4, h5, h6 {
   -o-transition: .7s;
 }
 .section-background__btn:hover {
-  background: #ff55009a;
+  background: #ff873c;
   color: #ffffff;
 }
 .section__overlay {
@@ -248,17 +245,15 @@ h2, h3, h4, h5, h6 {
   padding-top: 5%;
 }
 .testimonies__img {
-  box-shadow: 0 0 0 0.4rem #ffffff,
-              0 0 0 0.5rem #c0bdbd,
-              0 0.3rem .6rem 0.5rem #161515;
+  box-shadow: 0 0.1rem .8rem 0.1rem #161515;
   height: 16rem;
   margin: 5% 3% 5% 5%;
-  transform: rotate(-7deg);
+  transform: rotateY(12.5rem);
   width: 14rem;
-  -webkit-transform: rotate(-7deg);
-  -moz-transform: rotate(-7deg);
-  -ms-transform: rotate(-7deg);
-  -o-transform: rotate(-7deg);
+  -webkit-transform: rotateY(12.5rem);
+  -moz-transform: rotateY(12.5rem);
+  -ms-transform: rotateY(12.5rem);
+  -o-transform: rotateY(12.5rem);
 }
 .testimonies__bootcamper {
   height: 100%;

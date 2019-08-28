@@ -1,6 +1,7 @@
 // Scroll Reveal
-// Animación a navbar
 window.sr = ScrollReveal();
+
+// Animación a navbar
 sr.reveal('.nav', {
   distance: '50px',
   duration: 1000,
