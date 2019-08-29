@@ -112,10 +112,10 @@
 		}
 
 		// Built return object
-		remaining.días = Math.floor(timeleft / (24 * 60 * 60 * 1000));
-		remaining.horas = Math.floor((timeleft / (24 * 60 * 60 * 1000) - remaining.días) * 24);
-		remaining.minutos = Math.floor(((timeleft / (24 * 60 * 60 * 1000) - remaining.días) * 24 - remaining.horas) * 60);
-		remaining.segundos = Math.floor(timeleft / 1000 % 60);
+		remaining.Días = Math.floor(timeleft / (24 * 60 * 60 * 1000));
+		remaining.Horas = Math.floor((timeleft / (24 * 60 * 60 * 1000) - remaining.Días) * 24);
+		remaining.Minutos = Math.floor(((timeleft / (24 * 60 * 60 * 1000) - remaining.Días) * 24 - remaining.Horas) * 60);
+		remaining.Segundos = Math.floor(timeleft / 1000 % 60);
 		return remaining;
 	};
 }(jQuery));

@@ -11,12 +11,12 @@ h2, h3, h4, h5, h6 {
   box-shadow: 1px 3px 9px -2px #000000b3;
   color: #ffffff;
   display: inline-block;
-  height: 3.7rem;
+  height: 3.2rem;
   font-size: 2.5rem;
-  line-height: 3.7rem;
+  line-height: 3.2rem;
   transition: .4s;
   transform: scale(1);
-  width: 3.7rem;
+  width: 3.2rem;
   -webkit-transition: .4s;
   -moz-transition: .4s;
   -ms-transition: .4s;
@@ -29,11 +29,6 @@ h2, h3, h4, h5, h6 {
 .whatsapp:hover {                
   background: #00bb2d;
   color: #ffffff;
-}
-@media (max-width: 425px) {
-  .whatsapp {
-    line-height: 3.7rem;
-  }
 }
 /* /Bubble Whatsapp */
 
@@ -111,6 +106,7 @@ h2, h3, h4, h5, h6 {
   background-color: #ff873c;
   display: block;
   margin: auto;
+  margin-bottom: .1rem;
   width: 19rem;
 }
 .section-background__countdown {
@@ -123,21 +119,21 @@ h2, h3, h4, h5, h6 {
   width: 4.7rem;
 }
 .section-background__time {
-  color: #fff;
+  color: #ffffff;
   font-size: 1.5rem;
   text-align: center;
 }
 .section-background__label {
-  font-size: 0.9rem;
+  font-size: 0.8rem;
   display: block;
-  color: #aaa;
+  color: #aaaaaa;
 }
 /* /countdown */
 .section-background__btn {
-  background: #000000c7;
   box-shadow: 1px 3px 9px -2px #000000b3;
-  color: #ffffff;
-  margin-top: .08rem !important;
+  border: .07rem solid #ff873c;
+  color: #ff873c;
+  margin-top: .08rem;
   transition: .7s;
   transform: scale(1);
   width: 19rem;
@@ -148,6 +144,7 @@ h2, h3, h4, h5, h6 {
 }
 .section-background__btn:hover {
   background: #ff873c;
+  border: .07rem solid #ff873c;
   color: #ffffff;
 }
 .section__overlay {
@@ -164,7 +161,7 @@ h2, h3, h4, h5, h6 {
 }
 /* Style parallax */
 .parallax {
-  background-attachment: fixed !important;
+  background-attachment: fixed;
  }
  /* /Style parallax */
 /* Section image - Responsive */
@@ -232,37 +229,30 @@ h2, h3, h4, h5, h6 {
   background: linear-gradient(0deg, #00000008 0%, #ffffff 100%);
   color: #000000;
 }
-
 /* /Section ¿Qué esperar del bootcamp? */
 
 /* Section testimonies */
 .testimonies {
-  background: #c747ba;
-  background: linear-gradient(0deg, #c747ba 0%, #00000008 100%);
+  background: #ffffff;
+  background: linear-gradient(0deg, #ffffff 0%, #00000008 100%);
   color: #000000;
 }
 .testimonies__item {
   padding-top: 5%;
 }
 .testimonies__img {
-  box-shadow: 0 0.1rem .8rem 0.1rem #161515;
   height: 16rem;
   margin: 5% 3% 5% 5%;
-  transform: rotateY(12.5rem);
-  width: 14rem;
-  -webkit-transform: rotateY(12.5rem);
-  -moz-transform: rotateY(12.5rem);
-  -ms-transform: rotateY(12.5rem);
-  -o-transform: rotateY(12.5rem);
+  transform: rotate(-8deg);
+  -webkit-transform: rotate(-8deg);
+  -moz-transform: rotate(-8deg);
+  -ms-transform: rotate(-8deg);
+  -o-transform: rotate(-8deg);
 }
 .testimonies__bootcamper {
   height: 100%;
   object-fit: cover;
   width: 100%;
-}
-.carousel-caption cite,
-.carousel-caption h6 {
-  color: #000000;
 }
 .testimonies__link {
   color: #ffffff;
@@ -279,8 +269,11 @@ h2, h3, h4, h5, h6 {
   -ms-border-radius: 1rem;
   -o-border-radius: 1rem;
 }
+.testimonies__name {
+  color: #000000;
+}
 .testimonies__in:hover {
-  background: #c747ba;
+  background: #ff873cbe;
 }
 .testimonies__icon_in {
   background: #0077B5; 
@@ -292,11 +285,11 @@ h2, h3, h4, h5, h6 {
   width: auto;
 }
 .testimonies__school {
-  color: #eeeeee; 
+  color: #000000; 
 }
 /* /Logo School */
 .testimonies__button {
-  background: #c747ba;
+  background: #ff883c;
   margin-left: 3rem;
   margin-right: 3rem;
   top: calc(50% - 2rem);
