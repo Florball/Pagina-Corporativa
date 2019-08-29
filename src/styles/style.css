@@ -243,11 +243,11 @@ h2, h3, h4, h5, h6 {
 .testimonies__img {
   height: 16rem;
   margin: 5% 3% 5% 5%;
-  transform: rotate(-8deg);
-  -webkit-transform: rotate(-8deg);
-  -moz-transform: rotate(-8deg);
-  -ms-transform: rotate(-8deg);
-  -o-transform: rotate(-8deg);
+  transform: rotate(-4deg);
+  -webkit-transform: rotate(-4deg);
+  -moz-transform: rotate(-4deg);
+  -ms-transform: rotate(-4deg);
+  -o-transform: rotate(-4deg);
 }
 .testimonies__bootcamper {
   height: 100%;
