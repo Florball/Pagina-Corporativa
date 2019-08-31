@@ -453,7 +453,7 @@ h2, h3, h4, h5, h6 {
 }
 @media (max-width: 768px) {
   .nav__button--width {
-    padding: 2% 25% !important;
+    width: 15rem !important;
   }
 }
 /* /Form */
