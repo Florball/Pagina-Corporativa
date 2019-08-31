@@ -289,7 +289,7 @@ h2, h3, h4, h5, h6 {
 }
 /* /Logo School */
 .testimonies__button {
-  background: #ff883c;
+  background: #ff5500;
   margin-left: 3rem;
   margin-right: 3rem;
   top: calc(50% - 2rem);
@@ -447,12 +447,14 @@ h2, h3, h4, h5, h6 {
   border: .1rem solid #ffffff !important;
   border-bottom: 0.1rem solid #61005c !important;
 }
-.no-line {
-  outline:none;
-}
 .clear {
  display: flex;
  justify-content: center;
+}
+@media (max-width: 768px) {
+  .nav__button--width {
+    padding: 2% 25% !important;
+  }
 }
 /* /Form */
 
@@ -510,6 +512,11 @@ h2, h3, h4, h5, h6 {
 }
 /* /Responsive para pantallas grandes */
   
+/* Quita la linea celeste en los input y botones */
+.no-line {
+  outline: none;
+}
+
 /* Tamaños de fuentes */
 .title {
   font-size: 3rem;
